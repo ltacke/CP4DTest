@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "name": "fake_customers_short.csv",
+    "asset_type": "data_asset",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "owner_id": "1000331002",
+    "created_at": "2023-03-21T14:33:40Z",
+    "created": 1679409220984,
+    "asset_id": "data_asset.fakecustomercsvshaped",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "mime_type": "text/csv",
+      "dataset": true,
+      "properties": [
+        {
+          "name": "file_format",
+          "value": "csv"
+        },
+        {
+          "name": "first_line_header",
+          "value": "true"
+        }
+      ]
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "fake_customer_csv_shaped",
+      "object_key": "data_asset/fake_customer_csv_shaped-jy3F",
+      "mime": "text/csv",
+      "object_key_is_read_only": false,
+      "created_at": "2023-03-21T14:33:41Z",
+      "id": "beb7a237-c4ca-4adc-90ae-295559a227f8",
+      "is_managed": false,
+      "is_referenced": true,
+      "is_remote": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "name": "RStudio Big",
+    "description": "",
+    "origin_country": "US",
+    "tags": [
+      "dsx"
+    ],
+    "asset_type": "environment",
+    "rov": {
+      "mode": 0
+    },
+    "asset_category": "USER",
+    "created_at": "2023-03-21T15:10:17Z",
+    "created": 1679411417399,
+    "asset_id": "environment.RStudioBig",
+    "asset_attributes": [
+      "environment"
+    ]
+  },
+  "entity": {
+    "environment": {
+      "sub_type": "rstudio",
+      "display_name": "RStudio Big",
+      "hardware_specification": {
+        "type": "referenced",
+        "guid": "hardware_specification.RStudioBig"
+      },
+      "software_specification": {
+        "type": "referenced",
+        "guid": "0e6e79df-875e-4f24-8ae9-62dcc2148306"
+      },
+      "tools_specification": {
+        "supported_kernels": [
+          {
+            "name": "R",
+            "language": "R",
+            "version": "3.6",
+            "display_name": "R 3.6"
+          }
+        ]
+      },
+      "runtime_definition": "rstudio"
+    }
+  },
+  "attachments": []
+}
